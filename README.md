@@ -6,14 +6,14 @@ cd server
 npm install
 ```
 
-docker 运行mongodb
-```
-sudo docker run -d -p 27017:27017 -v "$(pwd)"/db:/data/db --name mongodb mongo:latest
-```
-
 创建server Docker
 ```
 sudo docker build -t my-node ./server
+```
+
+docker 运行mongodb
+```
+sudo docker run -d -p 27017:27017 -v "$(pwd)"/db:/data/db --name mongodb mongo:latest
 ```
 
 docker运行server
