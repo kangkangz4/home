@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  server:
+    image: my-node:latest
+    expose:
+      - 3000
+    ports:
+      - "3001:3000"
+    links:
+      - mongodb
+  mongodb:
+    image: mongo:latest
+    volumes:
+      - ./db:/data/db
+    expose:
+      - 27017
+    ports:
+      - "27017:27017"

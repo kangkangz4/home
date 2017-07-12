@@ -1,0 +1,804 @@
+[2017-07-07 15:45:26.600] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:20:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '密码错误', code: '10002' }
+[2017-07-07 15:45:33.205] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '暂无此用户', code: '10001' }
+[2017-07-07 15:52:45.503] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '暂无此用户', code: '10001' }
+[2017-07-07 16:11:54.292] [ERROR] http - ::1 - - "GET /api/demo HTTP/1.1" 401 12 "" "PostmanRuntime/6.1.6"
+[2017-07-07 16:14:58.956] [ERROR] http - ::1 - - "GET /api/demo HTTP/1.1" 401 12 "" "PostmanRuntime/6.1.6"
+[2017-07-07 16:20:41.223] [ERROR] http - ::1 - - "GET /api/demo HTTP/1.1" 401 12 "" "PostmanRuntime/6.1.6"
+[2017-07-07 16:20:45.304] [ERROR] http - ::1 - - "GET /api/demo HTTP/1.1" 401 12 "" "PostmanRuntime/6.1.6"
+[2017-07-07 16:21:06.320] [ERROR] http - ::1 - - "GET /api/demo HTTP/1.1" 401 12 "" "PostmanRuntime/6.1.6"
+[2017-07-07 16:21:29.714] [ERROR] app - TypeError: Cannot read property 'account' of undefined
+    at /Users/zhukang/project/home/server/router/routes/demo.js:10:13
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/demo.js:11:191)
+    at /Users/zhukang/project/home/server/router/routes/demo.js:11:437
+    at /Users/zhukang/project/home/server/router/routes/demo.js:11:99
+    at router.get (/Users/zhukang/project/home/server/router/routes/demo.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home/server/node_modules/koa-passport/lib/framework/koa.js:144:16)
+[2017-07-07 16:21:29.718] [ERROR] http - ::1 - - "GET /api/demo HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-07 16:35:34.759] [ERROR] app - TypeError: Cannot read property 'user' of undefined
+    at /Users/zhukang/project/home/server/router/routes/demo.js:11:13
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/demo.js:11:191)
+    at /Users/zhukang/project/home/server/router/routes/demo.js:11:437
+    at /Users/zhukang/project/home/server/router/routes/demo.js:11:99
+    at router.get (/Users/zhukang/project/home/server/router/routes/demo.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home/server/node_modules/koa-passport/lib/framework/koa.js:144:16)
+[2017-07-07 16:35:34.775] [ERROR] http - ::1 - - "GET /api/demo HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-07 16:35:51.554] [ERROR] app - TypeError: Cannot read property 'passport' of undefined
+    at /Users/zhukang/project/home/server/router/routes/demo.js:11:13
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/demo.js:11:191)
+    at /Users/zhukang/project/home/server/router/routes/demo.js:11:437
+    at /Users/zhukang/project/home/server/router/routes/demo.js:11:99
+    at router.get (/Users/zhukang/project/home/server/router/routes/demo.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home/server/node_modules/koa-passport/lib/framework/koa.js:144:16)
+[2017-07-07 16:35:51.559] [ERROR] http - ::1 - - "GET /api/demo HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-07 16:43:33.460] [ERROR] app - TypeError: The header content contains invalid characters
+    at ServerResponse.setHeader (_http_outgoing.js:374:11)
+    at Object.set (/Users/zhukang/project/home/server/node_modules/koa/lib/response.js:440:16)
+    at Object.proto.(anonymous function) [as set] (/Users/zhukang/project/home/server/node_modules/delegates/index.js:40:31)
+    at allFailed (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:156:13)
+    at attempt (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:167:28)
+    at Strategy.strategy.fail (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:284:9)
+    at verified (/Users/zhukang/project/home/server/node_modules/passport-http-bearer/lib/strategy.js:124:19)
+    at /Users/zhukang/project/home/server/auth/strategies/bearer.js:12:28
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/auth/strategies/bearer.js:15:191)
+    at /Users/zhukang/project/home/server/auth/strategies/bearer.js:15:361
+[2017-07-07 16:43:33.467] [ERROR] http - ::1 - - "GET /api/demo HTTP/1.1" 401 - "" "PostmanRuntime/6.1.6"
+[2017-07-07 16:57:10.909] [ERROR] app - TypeError: The header content contains invalid characters
+    at ServerResponse.setHeader (_http_outgoing.js:374:11)
+    at Object.set (/Users/zhukang/project/home/server/node_modules/koa/lib/response.js:440:16)
+    at Object.proto.(anonymous function) [as set] (/Users/zhukang/project/home/server/node_modules/delegates/index.js:40:31)
+    at allFailed (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:156:13)
+    at attempt (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:167:28)
+    at Strategy.strategy.fail (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:284:9)
+    at verified (/Users/zhukang/project/home/server/node_modules/passport-http-bearer/lib/strategy.js:124:19)
+    at /Users/zhukang/project/home/server/auth/strategies/bearer.js:12:28
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/auth/strategies/bearer.js:15:191)
+    at /Users/zhukang/project/home/server/auth/strategies/bearer.js:15:361
+[2017-07-07 16:57:10.920] [ERROR] http - ::1 - - "GET /api/demo HTTP/1.1" 401 - "" "PostmanRuntime/6.1.6"
+[2017-07-10 15:14:14.102] [ERROR] http - ::1 - - "GET / HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:14:50.140] [ERROR] http - ::1 - - "GET /string HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:15:04.251] [ERROR] http - ::1 - - "GET /string HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:17:00.470] [ERROR] http - ::1 - - "GET /vue-admin/static/js/manifest.0c9c383aecb95e1df34c.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:17:00.483] [ERROR] http - ::1 - - "GET /vue-admin/static/js/vendor.d85a6a421b23affcb649.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:17:00.486] [ERROR] http - ::1 - - "GET /vue-admin/static/js/app.493958db6ba6dbce46a9.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:17:01.225] [ERROR] http - ::1 - - "GET /vue-admin/static/css/app.86ec3b0fd64e4acc19cf11ee4143538c.css HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:17:01.231] [ERROR] http - ::1 - - "GET /vue-admin/static/js/vendor.d85a6a421b23affcb649.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:17:01.237] [ERROR] http - ::1 - - "GET /vue-admin/static/js/app.493958db6ba6dbce46a9.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:18:49.964] [ERROR] http - ::1 - - "GET /vue-admin/static/css/app.86ec3b0fd64e4acc19cf11ee4143538c.css HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:18:49.969] [ERROR] http - ::1 - - "GET /vue-admin/static/js/manifest.0c9c383aecb95e1df34c.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:18:49.972] [ERROR] http - ::1 - - "GET /vue-admin/static/js/vendor.d85a6a421b23affcb649.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:18:49.974] [ERROR] http - ::1 - - "GET /vue-admin/static/js/app.493958db6ba6dbce46a9.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:21:37.105] [ERROR] http - ::1 - - "GET /static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:21:37.120] [ERROR] http - ::1 - - "GET /static/js/manifest.5f00ca46c9446b2848aa.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:21:37.125] [ERROR] http - ::1 - - "GET /static/js/vendor.d85a6a421b23affcb649.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:21:37.129] [ERROR] http - ::1 - - "GET /static/js/app.493958db6ba6dbce46a9.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:22:37.343] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.af7ae50.woff2 HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:22:37.398] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.fee66e7.woff HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:22:37.442] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.b06871f.ttf HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:32:42.377] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.af7ae50.woff2 HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:32:42.425] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.fee66e7.woff HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:32:42.455] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.b06871f.ttf HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:33:47.527] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.af7ae50.woff2 HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:33:47.574] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.fee66e7.woff HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:33:47.607] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.b06871f.ttf HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:53:01.418] [ERROR] http - ::1 - - "GET /static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:53:01.424] [ERROR] http - ::1 - - "GET /static/js/manifest.5f00ca46c9446b2848aa.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:53:29.300] [ERROR] http - ::1 - - "GET /app/ HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:53:32.932] [ERROR] http - ::1 - - "GET /static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:53:32.936] [ERROR] http - ::1 - - "GET /static/js/manifest.5f00ca46c9446b2848aa.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:57:07.705] [ERROR] http - ::1 - - "GET /static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 15:57:07.711] [ERROR] http - ::1 - - "GET /static/js/manifest.5f00ca46c9446b2848aa.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:00:03.800] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.af7ae50.woff2 HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:00:03.808] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.fee66e7.woff HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:00:03.823] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.b06871f.ttf HTTP/1.1" 404 - "http://localhost:3000/static/css/app.5353bbdacb5a2e552de7bc8cdd778a5f.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:06:55.453] [ERROR] http - ::1 - - "GET /static/css/app.3ef848523be1b413f919c0d95297b90c.css HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:06:55.458] [ERROR] http - ::1 - - "GET /static/js/manifest.d3f2bd7861c6d8669aee.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:06:55.461] [ERROR] http - ::1 - - "GET /static/js/vendor.d85a6a421b23affcb649.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:06:55.463] [ERROR] http - ::1 - - "GET /static/js/app.493958db6ba6dbce46a9.js HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:07:21.367] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.af7ae50.woff2 HTTP/1.1" 404 - "http://localhost:3000/static/css/app.3ef848523be1b413f919c0d95297b90c.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:07:21.418] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.fee66e7.woff HTTP/1.1" 404 - "http://localhost:3000/static/css/app.3ef848523be1b413f919c0d95297b90c.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:07:21.439] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.b06871f.ttf HTTP/1.1" 404 - "http://localhost:3000/static/css/app.3ef848523be1b413f919c0d95297b90c.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:20:28.299] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.af7ae50.woff2 HTTP/1.1" 404 - "http://localhost:3000/static/css/app.3ef848523be1b413f919c0d95297b90c.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:20:28.351] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.fee66e7.woff HTTP/1.1" 404 - "http://localhost:3000/static/css/app.3ef848523be1b413f919c0d95297b90c.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:20:28.381] [ERROR] http - ::1 - - "GET /static/css/static/fonts/fontawesome-webfont.b06871f.ttf HTTP/1.1" 404 - "http://localhost:3000/static/css/app.3ef848523be1b413f919c0d95297b90c.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:38:03.446] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '暂无此用户', code: '10001' }
+[2017-07-10 16:39:21.792] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '暂无此用户', code: '10001' }
+[2017-07-10 16:39:35.124] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '暂无此用户', code: '10001' }
+[2017-07-10 16:39:38.653] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '暂无此用户', code: '10001' }
+[2017-07-10 16:40:24.430] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '暂无此用户', code: '10001' }
+[2017-07-10 16:40:35.087] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '暂无此用户', code: '10001' }
+[2017-07-10 16:43:59.514] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '暂无此用户', code: '10001' }
+[2017-07-10 16:44:03.246] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:20:10
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/auth.js:19:191)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:19:361 message: '密码错误', code: '10002' }
+[2017-07-10 16:45:24.717] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:46:10.778] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/list?name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:48:11.195] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 16:48:28.645] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:25:18.763] [ERROR] app - { ValidationError: User validation failed: name: Path `name` is required.
+    at ValidationError.inspect (/Users/zhukang/project/home/server/node_modules/mongoose/lib/error/validation.js:57:23)
+    at formatValue (util.js:353:36)
+    at inspect (util.js:187:10)
+    at Object.exports.format (util.js:69:24)
+    at Object.inspect (/Users/zhukang/project/home/server/node_modules/log4js/lib/layouts.js:34:23)
+    at formatValue (util.js:353:36)
+    at inspect (util.js:187:10)
+    at Object.exports.format (util.js:69:24)
+    at formatLogData (/Users/zhukang/project/home/server/node_modules/log4js/lib/layouts.js:47:22)
+    at basicLayout (/Users/zhukang/project/home/server/node_modules/log4js/lib/layouts.js:109:7)
+    at /Users/zhukang/project/home/server/node_modules/log4js/lib/appenders/file.js:68:19
+    at Array.<anonymous> (/Users/zhukang/project/home/server/node_modules/log4js/lib/appenders/logLevelFilter.js:11:7)
+    at Logger.masterAppender (/Users/zhukang/project/home/server/node_modules/log4js/lib/appenders/clustered.js:90:33)
+    at emitOne (events.js:101:20)
+    at Logger.emit (events.js:191:7)
+    at Logger._log (/Users/zhukang/project/home/server/node_modules/log4js/lib/logger.js:100:8)
+    at Logger.(anonymous function) [as error] (/Users/zhukang/project/home/server/node_modules/log4js/lib/logger.js:93:12)
+    at /Users/zhukang/project/home/server/app.js:77:10
+    at Generator.throw (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:402
+  errors: 
+   { name: 
+      { Path `name` is required.
+          at ValidatorError (/Users/zhukang/project/home/server/node_modules/mongoose/lib/error/validator.js:24:11)
+          at validate (/Users/zhukang/project/home/server/node_modules/mongoose/lib/schematype.js:754:13)
+          at /Users/zhukang/project/home/server/node_modules/mongoose/lib/schematype.js:801:11
+          at Array.forEach (native)
+          at SchemaString.SchemaType.doValidate (/Users/zhukang/project/home/server/node_modules/mongoose/lib/schematype.js:761:19)
+          at /Users/zhukang/project/home/server/node_modules/mongoose/lib/document.js:1474:9
+          at _combinedTickCallback (internal/process/next_tick.js:73:7)
+          at process._tickCallback (internal/process/next_tick.js:104:9)
+        message: 'Path `name` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'name',
+        value: undefined,
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2017-07-10 17:25:18.813] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/add HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:37:16.292] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:37:16.315] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:38:41.626] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:38:41.647] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:39:50.760] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:39:50.854] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:39:55.572] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:39:55.580] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:40:45.692] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:40:45.710] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:41:33.094] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:52
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.get (/Users/zhukang/project/home/server/router/routes/user.js:21:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:41:33.112] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:42:11.096] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:42:11.178] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:42:43.953] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:42:44.039] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:44:16.150] [ERROR] http - ::1 - - "POST /api/user/listpage HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
+[2017-07-10 17:44:30.936] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:44:30.951] [ERROR] http - ::1 - - "GET /api/user/listpage HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-10 17:45:30.032] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:45:30.050] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:46:42.473] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:46:42.498] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:47:41.666] [ERROR] app - TypeError: Cannot read property 'page' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:21:47
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:437
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:99
+    at router.post.get (/Users/zhukang/project/home/server/router/routes/user.js:7:2)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:43:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/app.js:23:191)
+    at /Users/zhukang/project/home/server/app.js:23:437
+    at /Users/zhukang/project/home/server/app.js:23:99
+    at app.use (/Users/zhukang/project/home/server/app.js:73:1)
+[2017-07-10 17:47:41.683] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/listpage?page=1&name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:50:44.481] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/list?name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:50:59.050] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/list?name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 17:59:19.493] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:35:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 17:59:19.746] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:35:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 17:59:23.304] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:35:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 17:59:23.462] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:35:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:05:38.937] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:37:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:05:39.176] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:37:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:05:43.016] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:37:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:06:15.414] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:37:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:06:15.954] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:37:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:06:23.610] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:37:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:06:23.798] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:37:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:06:25.136] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:37:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:07:01.338] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:38:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:07:01.778] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:38:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:07:31.634] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:38:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:07:32.285] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:38:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:08:06.459] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:39:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:08:06.773] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/user.js:39:11
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/router/routes/user.js:15:191)
+    at /Users/zhukang/project/home/server/router/routes/user.js:15:361 message: '查询失败', code: 10012 }
+[2017-07-10 18:30:06.575] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/list?name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 18:30:09.117] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/user/list?name= HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 18:52:20.580] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 400 11 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 18:52:49.815] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 400 11 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 18:57:56.284] [ERROR] http - ::1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 18:59:57.010] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:04:11.244] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:04:42.050] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:04:52.837] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:05:11.788] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:05:20.224] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:05:25.812] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:05:53.218] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:06:01.302] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:07:34.002] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:07:37.112] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:07:50.849] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:08:01.490] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:08:07.677] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:08:31.415] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 19:08:32.860] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 12 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 20:25:09.055] [ERROR] app - TypeError: The header content contains invalid characters
+    at ServerResponse.setHeader (_http_outgoing.js:374:11)
+    at Object.set (/Users/zhukang/project/home/server/node_modules/koa/lib/response.js:440:16)
+    at Object.proto.(anonymous function) [as set] (/Users/zhukang/project/home/server/node_modules/delegates/index.js:40:31)
+    at allFailed (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:156:13)
+    at attempt (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:167:28)
+    at Strategy.strategy.fail (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:284:9)
+    at verified (/Users/zhukang/project/home/server/node_modules/passport-http-bearer/lib/strategy.js:124:19)
+    at /Users/zhukang/project/home/server/auth/strategies/bearer.js:12:28
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/auth/strategies/bearer.js:15:191)
+    at /Users/zhukang/project/home/server/auth/strategies/bearer.js:15:361
+[2017-07-10 20:25:09.075] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-10 21:14:55.023] [ERROR] app - TypeError: The header content contains invalid characters
+    at ServerResponse.setHeader (_http_outgoing.js:374:11)
+    at Object.set (/Users/zhukang/project/home/server/node_modules/koa/lib/response.js:440:16)
+    at Object.proto.(anonymous function) [as set] (/Users/zhukang/project/home/server/node_modules/delegates/index.js:40:31)
+    at allFailed (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:156:13)
+    at attempt (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:167:28)
+    at Strategy.strategy.fail (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:284:9)
+    at verified (/Users/zhukang/project/home/server/node_modules/passport-http-bearer/lib/strategy.js:124:19)
+    at /Users/zhukang/project/home/server/auth/strategies/bearer.js:12:28
+    at Generator.next (<anonymous>)
+    at step (/Users/zhukang/project/home/server/auth/strategies/bearer.js:15:191)
+    at /Users/zhukang/project/home/server/auth/strategies/bearer.js:15:361
+[2017-07-10 21:14:55.055] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 08:46:31.634] [ERROR] app - { MongoError: Topology was destroyed
+    at nextFunction (/Users/zhukang/project/home/server/node_modules/mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/Users/zhukang/project/home/server/node_modules/mongodb-core/lib/cursor.js:692:3)
+    at nextObject (/Users/zhukang/project/home/server/node_modules/mongodb/lib/cursor.js:679:8)
+    at Cursor.next (/Users/zhukang/project/home/server/node_modules/mongodb/lib/cursor.js:269:12)
+    at findOne (/Users/zhukang/project/home/server/node_modules/mongodb/lib/collection.js:1415:10)
+    at Collection.findOne (/Users/zhukang/project/home/server/node_modules/mongodb/lib/collection.js:1401:44)
+    at NativeCollection.(anonymous function) [as findOne] (/Users/zhukang/project/home/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:126:28)
+    at NodeCollection.findOne (/Users/zhukang/project/home/server/node_modules/mquery/lib/collection/node.js:38:19)
+    at model.Query.Query.findOne (/Users/zhukang/project/home/server/node_modules/mquery/lib/mquery.js:1816:20)
+    at model.Query.Query._findOne (/Users/zhukang/project/home/server/node_modules/mongoose/lib/query.js:1303:22)
+    at /Users/zhukang/project/home/server/node_modules/kareem/index.js:257:8
+    at /Users/zhukang/project/home/server/node_modules/kareem/index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) name: 'MongoError', message: 'Topology was destroyed' }
+[2017-07-11 08:46:31.641] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 10:42:12.801] [ERROR] http - ::1 - - "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:22:38.942] [ERROR] app - { MismatchError: invalid
+    at throwOnInvalid (/Users/zhukang/project/home/server/node_modules/bcrypt-as-promised/index.js:26:24)
+    at tryCatchReject (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:845:30)
+    at runContinuation1 (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:804:4)
+    at Fulfilled.when (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:592:4)
+    at Pending.run (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:483:13)
+    at Scheduler._drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:62:19)
+    at Scheduler.drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:27:9)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) message: 'invalid', name: 'MismatchError' }
+[2017-07-11 11:22:38.947] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:30:34.950] [ERROR] app - { MismatchError: invalid
+    at throwOnInvalid (/Users/zhukang/project/home/server/node_modules/bcrypt-as-promised/index.js:26:24)
+    at tryCatchReject (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:845:30)
+    at runContinuation1 (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:804:4)
+    at Fulfilled.when (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:592:4)
+    at Pending.run (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:483:13)
+    at Scheduler._drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:62:19)
+    at Scheduler.drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:27:9)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) message: 'invalid', name: 'MismatchError' }
+[2017-07-11 11:30:34.956] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:31:24.957] [ERROR] app - { MismatchError: invalid
+    at throwOnInvalid (/Users/zhukang/project/home/server/node_modules/bcrypt-as-promised/index.js:26:24)
+    at tryCatchReject (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:845:30)
+    at runContinuation1 (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:804:4)
+    at Fulfilled.when (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:592:4)
+    at Pending.run (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:483:13)
+    at Scheduler._drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:62:19)
+    at Scheduler.drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:27:9)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) message: 'invalid', name: 'MismatchError' }
+[2017-07-11 11:31:24.959] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:32:01.335] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-07-11 11:32:07.007] [ERROR] app - { MismatchError: invalid
+    at throwOnInvalid (/Users/zhukang/project/home/server/node_modules/bcrypt-as-promised/index.js:26:24)
+    at tryCatchReject (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:845:30)
+    at runContinuation1 (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:804:4)
+    at Fulfilled.when (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:592:4)
+    at Pending.run (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:483:13)
+    at Scheduler._drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:62:19)
+    at Scheduler.drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:27:9)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) message: 'invalid', name: 'MismatchError' }
+[2017-07-11 11:32:07.008] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:32:22.368] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-07-11 11:33:04.133] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-07-11 11:33:08.702] [ERROR] app - { MismatchError: invalid
+    at throwOnInvalid (/Users/zhukang/project/home/server/node_modules/bcrypt-as-promised/index.js:26:24)
+    at tryCatchReject (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:845:30)
+    at runContinuation1 (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:804:4)
+    at Fulfilled.when (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:592:4)
+    at Pending.run (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:483:13)
+    at Scheduler._drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:62:19)
+    at Scheduler.drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:27:9)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) message: 'invalid', name: 'MismatchError' }
+[2017-07-11 11:33:08.704] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:34:41.013] [ERROR] app - { MismatchError: invalid
+    at throwOnInvalid (/Users/zhukang/project/home/server/node_modules/bcrypt-as-promised/index.js:26:24)
+    at tryCatchReject (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:845:30)
+    at runContinuation1 (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:804:4)
+    at Fulfilled.when (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:592:4)
+    at Pending.run (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:483:13)
+    at Scheduler._drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:62:19)
+    at Scheduler.drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:27:9)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) message: 'invalid', name: 'MismatchError' }
+[2017-07-11 11:34:41.017] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:35:31.309] [ERROR] app - { MismatchError: invalid
+    at throwOnInvalid (/Users/zhukang/project/home/server/node_modules/bcrypt-as-promised/index.js:26:24)
+    at tryCatchReject (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:845:30)
+    at runContinuation1 (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:804:4)
+    at Fulfilled.when (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:592:4)
+    at Pending.run (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:483:13)
+    at Scheduler._drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:62:19)
+    at Scheduler.drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:27:9)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) message: 'invalid', name: 'MismatchError' }
+[2017-07-11 11:35:31.313] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:36:02.796] [ERROR] app - ReferenceError: crypt is not defined
+    at model.accountSchema.methods.compare (/Users/zhukang/project/home/server/model/account.js:52:10)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:33
+[2017-07-11 11:36:02.810] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:36:23.337] [ERROR] app - { MismatchError: invalid
+    at throwOnInvalid (/Users/zhukang/project/home/server/node_modules/bcrypt-as-promised/index.js:26:24)
+    at tryCatchReject (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:845:30)
+    at runContinuation1 (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:804:4)
+    at Fulfilled.when (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:592:4)
+    at Pending.run (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:483:13)
+    at Scheduler._drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:62:19)
+    at Scheduler.drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:27:9)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) message: 'invalid', name: 'MismatchError' }
+[2017-07-11 11:36:23.341] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:38:11.710] [ERROR] app - { MismatchError: invalid
+    at throwOnInvalid (/Users/zhukang/project/home/server/node_modules/bcrypt-as-promised/index.js:26:24)
+    at tryCatchReject (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:845:30)
+    at runContinuation1 (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:804:4)
+    at Fulfilled.when (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:592:4)
+    at Pending.run (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:483:13)
+    at Scheduler._drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:62:19)
+    at Scheduler.drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:27:9)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) message: 'invalid', name: 'MismatchError' }
+[2017-07-11 11:38:11.713] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:42:20.998] [ERROR] app - TypeError: _bcryptAsPromised2.default.compareSync is not a function
+    at model.accountSchema.methods.compare (/Users/zhukang/project/home/server/model/account.js:52:22)
+    at /Users/zhukang/project/home/server/router/routes/auth.js:15:33
+[2017-07-11 11:42:21.008] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:45:10.991] [ERROR] app - { MismatchError: invalid
+    at throwOnInvalid (/Users/zhukang/project/home/server/node_modules/bcrypt-as-promised/index.js:26:24)
+    at tryCatchReject (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:845:30)
+    at runContinuation1 (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:804:4)
+    at Fulfilled.when (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:592:4)
+    at Pending.run (/Users/zhukang/project/home/server/node_modules/when/lib/makePromise.js:483:13)
+    at Scheduler._drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:62:19)
+    at Scheduler.drain (/Users/zhukang/project/home/server/node_modules/when/lib/Scheduler.js:27:9)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9) message: 'invalid', name: 'MismatchError' }
+[2017-07-11 11:45:10.995] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-07-11 11:47:10.173] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:17:10 message: '密码错误', code: '10002' }
+[2017-07-11 11:47:18.664] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:17:10 message: '密码错误', code: '10002' }
+[2017-07-11 11:47:23.044] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:17:10 message: '密码错误', code: '10002' }
+[2017-07-11 11:47:35.369] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:17:10 message: '密码错误', code: '10002' }
+[2017-07-11 11:48:09.574] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:17:10 message: '密码错误', code: '10002' }
+[2017-07-11 11:48:11.574] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:17:10 message: '密码错误', code: '10002' }
+[2017-07-11 11:48:47.157] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-07-11 11:51:43.322] [ERROR] app - undefined
+[2017-07-11 11:53:05.752] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10
+    at process._tickCallback (internal/process/next_tick.js:109:7) message: '密码错误', code: '10002' }
+[2017-07-11 12:11:54.818] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-07-11 12:11:58.729] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
