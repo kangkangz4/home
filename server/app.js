@@ -20,11 +20,11 @@ logger.info('--------step into koa---------')
 
 //连接数据库
 import config from './config'
-import {connectDB, registerAccount } from './db'
+import {connectDB, initDB } from './db'
 (async() => {
   try{
     await connectDB(config.mongodb.uri);
-    await registerAccount();
+    await initDB();
   }catch(error){
     console.log(error);
   }
@@ -52,7 +52,7 @@ app.use(log4js.koaLogger(log4js.getLogger('http'), { level: 'auto' }))
 // app.use(views(__dirname + '/views', {
 //   extension: 'pug'
 // }))
-import koaNunjucks from 'koa-nunjucks-2'
+const koaNunjucks = require('koa-nunjucks-2')
 //template
 app.use(koaNunjucks({
   ext: 'html',
@@ -104,12 +104,13 @@ app.use(async (ctx, next) => {
 })
 
 // routes
-import router from './router';
+import router from './router'
 app.use(router())
 
 // 认证
-import auth from './auth';
+import auth from './auth'
 app.use(auth())
+
 const index = require('./routes/index')
 // const users = require('./routes/users')
 app.use(index.routes(), index.allowedMethods())

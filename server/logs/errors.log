@@ -802,3 +802,354 @@
     at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
 [2017-07-11 12:11:58.729] [ERROR] app - { Error
     at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-07-13 15:50:05.395] [ERROR] app - TypeError: Cannot read property 'name' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:22:69
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home/server/node_modules/koa-passport/lib/framework/koa.js:144:16)
+[2017-07-13 15:50:05.409] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-13 15:50:49.147] [ERROR] app - TypeError: Cannot read property 'name' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:22:69
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home/server/node_modules/koa-passport/lib/framework/koa.js:144:16)
+[2017-07-13 15:50:49.149] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-13 15:51:21.549] [ERROR] app - TypeError: Cannot read property 'name' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:22:69
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home/server/node_modules/koa-passport/lib/framework/koa.js:144:16)
+[2017-07-13 15:51:21.552] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-13 15:51:50.899] [ERROR] app - TypeError: Cannot read property 'name' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:22:44
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:68:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at _callee2$ (/Users/zhukang/project/home/server/node_modules/koa-nunjucks-2/compiled.js:130:22)
+    at tryCatch (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/zhukang/project/home/server/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+[2017-07-13 15:51:50.915] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-13 15:52:19.820] [ERROR] app - TypeError: Cannot read property 'name' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:22:44
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:68:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at _callee2$ (/Users/zhukang/project/home/server/node_modules/koa-nunjucks-2/compiled.js:130:22)
+    at tryCatch (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/zhukang/project/home/server/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+[2017-07-13 15:52:19.837] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-13 15:52:50.077] [ERROR] app - TypeError: Cannot read property 'name' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:22:44
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:68:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at _callee2$ (/Users/zhukang/project/home/server/node_modules/koa-nunjucks-2/compiled.js:130:22)
+    at tryCatch (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/zhukang/project/home/server/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+[2017-07-13 15:52:50.083] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-13 15:53:30.447] [ERROR] app - TypeError: Cannot read property 'name' of undefined
+    at /Users/zhukang/project/home/server/router/routes/user.js:22:44
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:68:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at _callee2$ (/Users/zhukang/project/home/server/node_modules/koa-nunjucks-2/compiled.js:130:22)
+    at tryCatch (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/zhukang/project/home/server/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+[2017-07-13 15:53:30.466] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-07-13 15:57:49.617] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 401 12 "" "PostmanRuntime/6.1.6"
+[2017-07-28 16:23:18.875] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-07-28 16:23:22.910] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-07-28 16:23:25.791] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-07-31 15:58:24.749] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-07-31 15:58:37.225] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-01 08:49:42.037] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-01 08:49:48.080] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-01 11:25:53.740] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/menu HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
+[2017-08-01 12:21:49.177] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:32:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:22:53.113] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:31:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:33:38.703] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:28:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:34:02.106] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:29:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:36:23.614] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:29:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:40:42.324] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:29:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:44:30.928] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:29:11
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:68:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at _callee2$ (/Users/zhukang/project/home/server/node_modules/koa-nunjucks-2/compiled.js:130:22)
+    at tryCatch (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/zhukang/project/home/server/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30) message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:45:05.171] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:29:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:46:07.528] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:29:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:46:50.694] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:29:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:49:02.333] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:29:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:53:01.427] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:30:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 12:54:57.888] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:30:11 message: '菜单获取失败', code: 20001 }
+[2017-08-01 13:41:18.147] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/menu HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-02 10:02:00.285] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:28:11
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:68:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at _callee2$ (/Users/zhukang/project/home/server/node_modules/koa-nunjucks-2/compiled.js:130:22)
+    at tryCatch (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/zhukang/project/home/server/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30) message: '菜单创建失败', code: 20002 }
+[2017-08-02 15:48:46.024] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/menus/edit HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-02 16:09:39.286] [ERROR] http - ::ffff:127.0.0.1 - - "DELETE /api/menus/remove/598186d786bed54cf3fde0f4 HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-02 16:10:56.571] [ERROR] http - ::ffff:127.0.0.1 - - "DELETE /api/menus/remove/598186d786bed54cf3fde0f4 HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-02 16:11:23.206] [ERROR] http - ::ffff:127.0.0.1 - - "DELETE /api/menus/remove/598186d786bed54cf3fde0f4 HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-02 16:13:16.664] [ERROR] http - ::ffff:127.0.0.1 - - "DELETE /api/menus/remove/598186d786bed54cf3fde0f4 HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-02 16:18:30.517] [ERROR] http - ::ffff:127.0.0.1 - - "DELETE /api/menus/remove HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-02 16:19:29.677] [ERROR] http - ::ffff:127.0.0.1 - - "DELETE /api/menus/remove HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-02 16:20:20.619] [ERROR] http - ::ffff:127.0.0.1 - - "PUT /api/menus/remove HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-02 16:22:47.450] [ERROR] http - ::ffff:127.0.0.1 - - "DELETE /api/menus/remove HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-02 16:27:16.738] [ERROR] http - ::1 - - "DELETE /api/menus/remove HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-02 16:27:45.417] [ERROR] http - ::1 - - "DELETE /api/menus/remove HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-02 16:29:51.223] [ERROR] http - ::1 - - "DELETE /api/menus/remove HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-02 16:30:16.111] [ERROR] http - ::1 - - "PUT /api/menus/remove HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-02 16:35:26.914] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:54:11
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:68:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at _callee2$ (/Users/zhukang/project/home/server/node_modules/koa-nunjucks-2/compiled.js:130:22)
+    at tryCatch (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/zhukang/project/home/server/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30) message: '菜单删除失败', code: 20004 }
+[2017-08-02 16:37:48.171] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/menu.js:55:11
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhukang/project/home/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:75:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhukang/project/home/server/app.js:68:9
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa/node_modules/koa-compose/index.js:45:18)
+    at _callee2$ (/Users/zhukang/project/home/server/node_modules/koa-nunjucks-2/compiled.js:130:22)
+    at tryCatch (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/zhukang/project/home/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/zhukang/project/home/server/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30) message: '菜单删除失败', code: 20004 }
+[2017-08-03 10:19:52.648] [ERROR] http - ::1 - - "DELETE /api/login HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
+[2017-08-03 10:19:57.375] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-03 10:20:57.498] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-03 10:58:38.694] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-03 10:59:26.252] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-03 11:00:00.952] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-03 11:00:04.165] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-03 11:16:48.214] [ERROR] app - TypeError: The header content contains invalid characters
+    at ServerResponse.setHeader (_http_outgoing.js:374:11)
+    at Object.set (/Users/zhukang/project/home/server/node_modules/koa/lib/response.js:437:16)
+    at Object.proto.(anonymous function) [as set] (/Users/zhukang/project/home/server/node_modules/delegates/index.js:40:31)
+    at allFailed (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:156:13)
+    at attempt (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:167:28)
+    at Strategy.strategy.fail (/Users/zhukang/project/home/server/node_modules/passport/lib/middleware/authenticate.js:284:9)
+    at verified (/Users/zhukang/project/home/server/node_modules/passport-http-bearer/lib/strategy.js:124:19)
+    at /Users/zhukang/project/home/server/auth/strategies/bearer.js:12:28
+[2017-08-03 11:16:48.233] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/user/listpage HTTP/1.1" 401 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-03 15:17:52.270] [ERROR] http - ::1 - - "POST /api/account/listpage HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
+[2017-08-03 15:36:55.885] [ERROR] http - ::1 - - "POST /api/account/add HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
+[2017-08-04 10:22:05.112] [ERROR] http - ::ffff:127.0.0.1 - - "DELETE /api/account/remove/5983d5eacc7c7668ae4167c5 HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-04 10:40:56.235] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/account.js:63:11 message: '用户更新失败', code: 20002 }
+[2017-08-04 10:42:02.338] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/account.js:63:11 message: '用户更新失败', code: 20002 }
+[2017-08-04 11:01:02.472] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-04 11:01:08.382] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-04 11:01:31.860] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-04 11:01:43.047] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-04 11:01:56.521] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-04 11:03:26.283] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-04 11:03:33.445] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-04 11:03:48.410] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:12:10 message: '暂无此用户', code: '10001' }
+[2017-08-04 12:00:59.852] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-04 12:01:03.604] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-04 12:05:28.084] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-04 12:12:58.214] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-04 12:28:34.969] [ERROR] app - TypeError: Cannot read property 'filename' of undefined
+    at /Users/zhukang/project/home/server/router/routes/upload.js:24:14
+    at dispatch (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+[2017-08-04 12:28:34.978] [ERROR] http - ::1 - - "POST /api/upload HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-04 12:29:41.911] [ERROR] app - { Error: ENOENT: no such file or directory, open 'public/uploads/1501820981905.png'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'public/uploads/1501820981905.png',
+  storageErrors: [] }
+[2017-08-04 12:29:41.916] [ERROR] http - ::1 - - "POST /api/upload HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-04 12:31:07.319] [ERROR] app - { Error: ENOENT: no such file or directory, open '/public/uploads/1501821067316.png'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/public/uploads/1501821067316.png',
+  storageErrors: [] }
+[2017-08-04 12:31:07.324] [ERROR] http - ::1 - - "POST /api/upload HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-04 12:54:57.391] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-04 14:45:32.623] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/auth.js:18:10 message: '密码错误', code: '10002' }
+[2017-08-04 15:15:11.890] [ERROR] http - ::1 - - "POST /api/department/add HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
+[2017-08-04 15:17:10.897] [ERROR] http - ::1 - - "POST /api/department/add HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
+[2017-08-07 09:51:36.755] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-07 12:26:27.050] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/department.js:47:11 message: '部门创建失败', code: 10002 }
+[2017-08-07 13:41:52.867] [ERROR] http - ::1 - - "POST /api/role/add HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
+[2017-08-07 13:41:58.995] [ERROR] http - ::1 - - "POST /api/role/edit HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-07 13:42:39.449] [ERROR] http - ::1 - - "POST /api/role/edit HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-07 13:44:34.576] [ERROR] http - ::1 - - "POST /api/role/edit HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-07 13:45:08.070] [ERROR] app - { Error
+    at /Users/zhukang/project/home/server/router/routes/role.js:47:11 message: '角色更新失败', code: 40003 }
+[2017-08-07 14:28:30.038] [ERROR] http - ::1 - - "DELETE /api/role/list HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
+[2017-08-07 14:36:25.706] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/role/list HTTP/1.1" 405 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"

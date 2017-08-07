@@ -5,6 +5,7 @@ import bcrypt from 'bcrypt';
 // import bcrypt from 'bcrypt-as-promised';
  
 const saltRounds = 10;
+const ObjectId = mongoose.Schema.Types.ObjectId;
 
 const accountSchema = new mongoose.Schema({
   mobile: {
@@ -13,8 +14,21 @@ const accountSchema = new mongoose.Schema({
     required: true,
     minlength: 3,
   },
-  name: String,
+  name: {
+    type:String,
+    required: true
+  },
+  pinyin: String,
+  email: String,
+  age: Number,
+  addr: String,
+  birth: String,
+  sex: Number,
   avatar: String,
+  department:{
+    type: ObjectId,
+    ref: 'Department'
+  },
   hashed_pass: {
     type: String,
   }
@@ -47,6 +61,16 @@ accountSchema.pre('save', async function preSave(next) {
     next(error);
   }
 });
+
+//重置密码
+accountSchema.methods.resetpass = async function(password){
+  try{
+    this.password = password;
+    this.save();
+  }catch(error){
+    console.log(error);
+  }
+}
 
 accountSchema.methods.compare = async function(password){
   return bcrypt.compareSync(password, this.hashed_pass);

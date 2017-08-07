@@ -7,8 +7,8 @@ import { JsonError } from '../../error';
 export default (router => {
 	router
 		.post('/user/add', isBearerAuthenticated(), async (ctx, next) => {
-			let { name, addr, age, birth, sex } = ctx.request.body.params;
 			try{
+				let { name, addr, age, birth, sex } = ctx.request.body
 				const user = await User.create({ name, addr, age, birth, sex });
 				ctx.body = {
 					code: 10000,
@@ -20,8 +20,8 @@ export default (router => {
 			}
 		})
 		.post('/user/list', isBearerAuthenticated(), async (ctx, next) => {
-			let {name} = ctx.request.body.params;
 			try{
+				let {name} = ctx.request.body;
 				let users = await User.find();
 				ctx.body = {
 					users: users
@@ -32,8 +32,8 @@ export default (router => {
 			}
 		})
 		.post('/user/listpage', isBearerAuthenticated(), async (ctx, next) => {
-			let {page, name} = ctx.request.body.params;
 			try{
+				let {page, name} = ctx.request.body;
 				var users = [];
 				if(name.length > 0){
 					let regex = {$regex: name, $options:'i'}
@@ -42,8 +42,12 @@ export default (router => {
 					users = await User.find();
 				}
 				ctx.body = {
-					total: users.length,
-					users: users
+					code: 10000,
+					result: {
+						total: users.length,
+						page: page,
+						users: users
+					}
 				}
 			}catch(error){
 				console.log(error);
@@ -51,8 +55,8 @@ export default (router => {
 			}
 		})
 		.post('/user/edit', isBearerAuthenticated(), async (ctx, next) => {
-			let { _id, name, addr, age, birth, sex } = ctx.request.body.params;
 			try{
+				let { _id, name, addr, age, birth, sex } = ctx.request.body;
 				await User.findByIdAndUpdate(_id, { name, addr, age, birth, sex })
 				ctx.body = {
 					code: 10000,
@@ -65,9 +69,9 @@ export default (router => {
 			
 		})
 		.post('/user/batchremove',isBearerAuthenticated(), async (ctx, next) => {
-			let { ids } = ctx.request.body.params;
-			ids = ids.split(',');
 			try{
+				let { ids } = ctx.request.body;
+				ids = ids.split(',');
 				await User.remove({ _id: { $in: ids } });
 				ctx.body = {
 					code: 10000,
@@ -79,8 +83,8 @@ export default (router => {
 			}
 		})
 		.post('/user/remove',isBearerAuthenticated(), async (ctx, next) => {
-			let { id } = ctx.request.body.params;
 			try{
+				let { id } = ctx.request.body;
 				await User.findByIdAndRemove(id);
 				ctx.body = {
 					code: 10000,

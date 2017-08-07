@@ -18,7 +18,9 @@ export default (router => {
 			throw new JsonError('10002', '密码错误');
 		}
 
+		//删除当前令牌
 		await AccessToken.findOneAndRemove({account: account._id});
+		//重新创建令牌
 		const accessToken = await AccessToken.create({
 			account: account._id
 		});
@@ -29,8 +31,11 @@ export default (router => {
 		}
 
 		ctx.body = {
-			account: account,
-			access_token : _accessToken
+			code: 10000,
+			result: {
+				account: account,
+				access_token : _accessToken
+			}
 		}
 	})
 })
