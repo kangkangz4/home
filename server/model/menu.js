@@ -11,6 +11,7 @@ const menuSchema = mongoose.Schema({
 	},
 	componentUrl:String, //组件地址
 	name: String,  //目录名称
+	shortname:String, //简称，权限用
 	icon: {
 		type: String,
 		default: ''

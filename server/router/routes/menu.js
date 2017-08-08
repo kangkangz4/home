@@ -20,8 +20,8 @@ export default (router => {
 		})
 		.put('/menus/add', async (ctx) => {
 			try{
-				const {name, path, componentUrl, icon, order, isHidden, parent} = ctx.request.body;
-				await Menu.create({name, path, componentUrl, icon, order, isHidden, parent});
+				const {name, shortname, path, componentUrl, icon, order, isHidden, parent} = ctx.request.body;
+				await Menu.create({name,shortname, path, componentUrl, icon, order, isHidden, parent});
 				ctx.body = {
 					code: 10000,
 					message: '新增成功'
@@ -33,8 +33,8 @@ export default (router => {
 		})
 		.post('/menus/edit', async (ctx) => {
 			try{
-				const {_id, name, path, componentUrl, icon, order, isHidden, parent} = ctx.request.body;
-				await Menu.findByIdAndUpdate(_id, { name, path, componentUrl, icon, order, isHidden, parent })
+				const {_id, name,shortname, path, componentUrl, icon, order, isHidden, parent} = ctx.request.body;
+				await Menu.findByIdAndUpdate(_id, { name,shortname, path, componentUrl, icon, order, isHidden, parent })
 				ctx.body = {
 					code: 10000,
 					message: '更新成功'
